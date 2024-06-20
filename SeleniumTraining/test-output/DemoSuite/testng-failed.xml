@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swaglabs(failed)">
+    <classes>
+      <class name="testNG.SauceLabs">
+        <methods>
+          <include name="DevelopersPlaywright"/>
+          <include name="DevelopersDocumentation"/>
+          <include name="SolutionsDebugging"/>
+          <include name="SolutionsContinuesTesting"/>
+        </methods>
+      </class> <!-- testNG.SauceLabs -->
+      <class name="testNG.SwagLabs">
+        <methods>
+          <include name="ProductsSauceErrorReport"/>
+          <include name="SolutionsTeams"/>
+          <include name="SolutionsEnterprise"/>
+          <include name="SolutionsTestorchestration"/>
+          <include name="SolutionsVisualtesting"/>
+        </methods>
+      </class> <!-- testNG.SwagLabs -->
+      <class name="testNG.SauceDemo">
+        <methods>
+          <include name="DevelopersAppiumTesting"/>
+        </methods>
+      </class> <!-- testNG.SauceDemo -->
+    </classes>
+  </test> <!-- Swaglabs(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->

@@ -1,0 +1,265 @@
+<html>
+<head>
+<title>TestNG:  Swaglabs</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Swaglabs</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 27 12:58:48 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>462 seconds (462474 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.SauceDemo.SearchEngine()'><b>SearchEngine</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>13</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.DevelopersAppiumTesting()'><b>DevelopersAppiumTesting</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>18</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.TryitNowButton()'><b>TryitNowButton</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>3</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SwagLabs.SolutionsVisualtesting()'><b>SolutionsVisualtesting</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceLabs.SolutionsCIandCD()'><b>SolutionsCIandCD</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>12</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SwagLabs.AppLaunch()'><b>AppLaunch</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>6</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SwagLabs.MenuAboutUsClick()'><b>MenuAboutUsClick</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>15</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SwagLabs.ProductsSauceErrorReport()'><b>ProductsSauceErrorReport</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>8</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceLabs.SolutionsContinuesTesting()'><b>SolutionsContinuesTesting</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>10</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceDemo.EnterLoginDetails()'><b>EnterLoginDetails</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>1</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SwagLabs.ProductsSauceCross()'><b>ProductsSauceCross</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>10</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SwagLabs.SolutionsTestorchestration()'><b>SolutionsTestorchestration</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceLabs.DevelopersFAQs()'><b>DevelopersFAQs</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>11</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceLabs.EnterLoginDetails()'><b>EnterLoginDetails</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>0</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SwagLabs.SolutionsTeams()'><b>SolutionsTeams</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceDemo.FMenuAboutUsClick()'><b>FMenuAboutUsClick</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>11</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesWebinars()'><b>ResourcesWebinars</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>13</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceLabs.SolutionsTestAnalytics()'><b>SolutionsTestAnalytics</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>12</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesCaseStudy()'><b>ResourcesCaseStudy</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>12</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.AppLaunch()'><b>AppLaunch</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>10</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceLabs.SolutionsBetaTesting()'><b>SolutionsBetaTesting</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>11</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceLabs.DevelopersSelenium()'><b>DevelopersSelenium</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceDemo.DevelopersCypress()'><b>DevelopersCypress</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>20</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesBlog()'><b>ResourcesBlog</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>87</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceLabs.MenuAboutUsClick()'><b>MenuAboutUsClick</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>25</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SwagLabs.ProductsPlatform()'><b>ProductsPlatform</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>8</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SwagLabs.ProductsSauceLowCode()'><b>ProductsSauceLowCode</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesVideo()'><b>ResourcesVideo</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>12</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesTEIStudy()'><b>ResourcesTEIStudy</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>12</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SwagLabs.EnterLoginDetails()'><b>EnterLoginDetails</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>0</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SwagLabs.SolutionsEnterprise()'><b>SolutionsEnterprise</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+<tr>
+<td title='testNG.SauceLabs.DevelopersDocumentation()'><b>DevelopersDocumentation</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>13</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceDemo.ResourcesDatasheets()'><b>ResourcesDatasheets</b><br>Test class: testNG.SauceDemo</td>
+<td></td>
+<td>10</td>
+<td>testNG.SauceDemo@56dc1551</td></tr>
+<tr>
+<td title='testNG.SauceLabs.AppLaunch()'><b>AppLaunch</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceLabs.SolutionsDebugging()'><b>SolutionsDebugging</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>10</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SauceLabs.DevelopersPlaywright()'><b>DevelopersPlaywright</b><br>Test class: testNG.SauceLabs</td>
+<td></td>
+<td>13</td>
+<td>testNG.SauceLabs@3eb91815</td></tr>
+<tr>
+<td title='testNG.SwagLabs.ProductsSauceMobile()'><b>ProductsSauceMobile</b><br>Test class: testNG.SwagLabs</td>
+<td></td>
+<td>7</td>
+<td>testNG.SwagLabs@5e17553a</td></tr>
+</table><p>
+</body>
+</html>

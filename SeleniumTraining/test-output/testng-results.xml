@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T11:20:51 IST" name="MavenSuite" finished-at="2024-05-29T11:22:14 IST" duration-ms="83406">
+    <groups>
+    </groups>
+    <test started-at="2024-05-29T11:20:51 IST" name="MavenTest" finished-at="2024-05-29T11:22:14 IST" duration-ms="83406">
+      <class name="ultimateQA.SkillsWebsite">
+        <test-method signature="AppLaunch()[pri:0, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:20:51 IST" name="AppLaunch" finished-at="2024-05-29T11:21:00 IST" duration-ms="8956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method signature="ServicesClick()[pri:1, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:21:00 IST" name="ServicesClick" finished-at="2024-05-29T11:21:11 IST" duration-ms="10735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServicesClick -->
+        <test-method signature="AboutPageClick()[pri:2, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:21:11 IST" name="AboutPageClick" finished-at="2024-05-29T11:21:22 IST" duration-ms="10771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutPageClick -->
+        <test-method signature="BlogPageClick()[pri:3, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:21:22 IST" name="BlogPageClick" finished-at="2024-05-29T11:21:32 IST" duration-ms="10770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogPageClick -->
+        <test-method signature="EducationPagedropdown()[pri:4, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:21:32 IST" name="EducationPagedropdown" finished-at="2024-05-29T11:21:43 IST" duration-ms="10855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EducationPagedropdown -->
+        <test-method signature="DetailsPage()[pri:5, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:21:43 IST" name="DetailsPage" finished-at="2024-05-29T11:22:04 IST" duration-ms="20709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DetailsPage -->
+        <test-method signature="SubmitButton()[pri:6, instance:ultimateQA.SkillsWebsite@66ea810]" started-at="2024-05-29T11:22:04 IST" name="SubmitButton" finished-at="2024-05-29T11:22:14 IST" duration-ms="10415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButton -->
+      </class> <!-- ultimateQA.SkillsWebsite -->
+    </test> <!-- MavenTest -->
+  </suite> <!-- MavenSuite -->
+</testng-results>
