@@ -138,7 +138,17 @@ public class SwagLabs {
 		driver.get("https://saucelabs.com/");
 	}
 	
-	
+	@Test(priority = 11)
+	public void SolutionsVisualtesting() {
+		driver.findElement(By.xpath("//span[text()='Solutions']")).click();  
+		driver.findElement(By.xpath("//span[text()='Visual testing']")).click();
+		// Check if the button click was successful
+		if (driver.getPageSource().contains("Selenium Quickstart")) {
+			System.out.println("SolutionsVisualtesting text is Present.");
+		} else {
+			System.out.println("SolutionsVisualtesting text is not Present.");
+		}	
+		driver.get("https://saucelabs.com/");
 	}
 	
 }
